@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Timer 3.7.2\n"
+"Report-Msgid-Bugs-To: http://www.kleor.com/easy-timer/\n"
+"POT-Creation-Date: 2010-04-28 00:00+0000\n"
+"PO-Revision-Date: 2015-10-18 12:34+0100\n"
+"Last-Translator: Kleor <contact@kleor.com>\n"
+"Language-Team: Kleor <contact@kleor.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.3\n"
+"Language: fa_IR\n"
+
+msgid "Allows you to easily display a count down/up timer, the time or the current date on your website, and to schedule an automatic content modification."
+msgstr "به شما این امکان را میدهد تا به سادگی زمان سنج، یا تاریخ و زمان وب سایت و یا برنامه زمانی یک محتوا را نمایش دهید. "
+
+msgid "Uninstall"
+msgstr "حذف"
+
+msgid "Reset"
+msgstr "تنظیم مجدد"
+
+msgid "Options"
+msgstr "تنظیمات"
+
+msgid "Documentation"
+msgstr "مستندات"
+
+msgid "no"
+msgstr "خیر"
+
+msgid "yes"
+msgstr "بله"
+
+msgid "Options reset."
+msgstr "ریست تنظیمات"
+
+msgid "Options deleted."
+msgstr "تنظیمات حذف شد"
+
+msgid "Do you really want to reset the options of Easy Timer?"
+msgstr "از تنظیم مجدد تنظیمات easy timer اطمینان دارید ؟"
+
+msgid "Do you really want to permanently delete the options of Easy Timer?"
+msgstr "از حذف دائمی تنظیمات easy timer اطمینان دارید ؟"
+
+msgid "Yes"
+msgstr "بله"
+
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شدند"
+
+msgid "The"
+msgstr " "
+
+msgid "shortcode is equivalent to"
+msgstr "این shortcode معدل است با "
+
+msgid "shortcode is equivalent to:"
+msgstr "این shortcode معدل است با "
+
+msgid "More informations"
+msgstr "اطلاعات بیشتر"
+
+msgid "Cookies lifetime (used for relative dates):"
+msgstr "مدت عمر کوکی ها (برای تاریخ های نسبی)"
+
+msgid "days"
+msgstr "روز"
+
+msgid "Add JavaScript code"
+msgstr "اضافه کردن کد جاوا اسکریپت"
+
+msgid "If you uncheck this box, Easy Timer will never add any JavaScript code to the pages of your website, but your count up/down timers will not refresh."
+msgstr "اگر این چک باکس را انتخاب نکنید، easy timer هیچ کد جاوا اسکریپتی را به صفحات سایت شما اضافه نمیکند، ولی شمارشگر شما رفرش نمیتواند دوباره سازی(refresh) شود."
+
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+msgid "0 second"
+msgstr "0 ثانیه"
+
+msgid "1 day"
+msgstr "1 روز"
+
+msgid "1 hour"
+msgstr "1 ساعت"
+
+msgid "1 minute"
+msgstr "1 دقیقه"
+
+msgid "1 second"
+msgstr "1 ثانیه"
+
+msgid "hours"
+msgstr "ساعت"
+
+msgid "minutes"
+msgstr "دقیقه"
+
+msgid "seconds"
+msgstr "ثانیه"
+
+msgid "DECEMBER"
+msgstr "دسامبر"
+
+msgid "JANUARY"
+msgstr "ژانویه"
+
+msgid "FEBRUARY"
+msgstr "فوریه"
+
+msgid "MARCH"
+msgstr "مارس"
+
+msgid "APRIL"
+msgstr "آوریل"
+
+msgid "MAY"
+msgstr "می"
+
+msgid "JUNE"
+msgstr "ژوئن"
+
+msgid "JULY"
+msgstr "ژوئیه"
+
+msgid "AUGUST"
+msgstr "اوت"
+
+msgid "SEPTEMBER"
+msgstr "سپتامبر"
+
+msgid "OCTOBER"
+msgstr "اکتبر"
+
+msgid "NOVEMBER"
+msgstr "نوامبر"
+
+msgid "SUNDAY"
+msgstr "یکشنبه"
+
+msgid "MONDAY"
+msgstr "دوشنبه"
+
+msgid "TUESDAY"
+msgstr "سه شنبه"
+
+msgid "WEDNESDAY"
+msgstr "چهارشنبه"
+
+msgid "THURSDAY"
+msgstr "پنجشنبه"
+
+msgid "FRIDAY"
+msgstr "جمعه"
+
+msgid "SATURDAY"
+msgstr "شنبه"
+
+msgid "Display a countdown timer"
+msgstr "نمایش شمارشگر"
+
+msgid "Display the time or the date"
+msgstr "نمایش زمان یا تاریخ"
+
+msgid "Hide this box"
+msgstr "مخفی کردن این باکس"
+
+msgid "Delete the options of Easy Timer"
+msgstr "حذف تنظیمات easy timer"
+
+msgid "Reset the options of Easy Timer"
+msgstr "ریست تنظیمات easy timer"
+
+msgid "Delete the options of Easy Timer for all sites in this network"
+msgstr "حذف تنظیمات easy timer برای تمامی وب سایت های این شبکه"
+
+msgid "Do you really want to permanently delete the options of Easy Timer for all sites in this network?"
+msgstr "آیا شما از حذف دائمی این تنظیمات easy timer برای تمامی سایت های شبکه اطمینان دارید ؟"
+
+msgid "This action is irreversible."
+msgstr "این تغییر غیرقابل برگشت است"
+
