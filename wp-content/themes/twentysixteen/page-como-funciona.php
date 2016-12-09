@@ -15,14 +15,15 @@
 
         <section>
             <div>
-                <div class="col-md-3 quem-somos">
+                <div class="col-md-3 quem-somos fadeInLeft animated" >
                     <h1><?php echo $titulo; ?></h1>
                     <div style="text-align: justify;">
                         <?php echo $texto; ?>
                     </div>
                 </div>
-                <div><img src="<?php echo $imagem['url']; ?>" alt="<?php echo $imagem['alt'] ?>" /></div>
-            </div><br>
+                <div><img class="img-responsive imagemcomofunciona fadeInLeft animated" style="min-height: 265px;"  src="<?php echo $imagem['url']; ?>" alt="<?php echo $imagem['alt'] ?>" /></div>
+            </div>
+            <br>
         </section>
 
 
@@ -42,7 +43,7 @@
         $iconimagem = get_sub_field('icon-imagem');
         ?>
     <section>
-        <div class="programa">
+        <div class="programa" data-aos="fade-right">
             <h1><?php echo $titulo; ?></h1>
 
     <?php endwhile; ?>
@@ -86,13 +87,13 @@
 
 
         <div>
-            <div class="col-md-3 metodologia"">
+            <div class="col-md-offset-7 col-md-3 metodologia" data-aos="fade-up-right">
                 <h1><?php echo $titulo; ?></h1>
             <div style="text-align: justify;">
                     <?php echo $texto; ?>
                 </div>
             </div>
-            <img src="<?php echo $imagem['url']; ?>" alt="<?php echo $imagem['alt'] ?>" />
+            <img class="img-responsive imagemcomofunciona" data-aos="fade-up-right" style="min-height: 265px;" src="<?php echo $imagem['url']; ?>" alt="<?php echo $imagem['alt'] ?>" />
 
         </div><br>
 
@@ -112,9 +113,9 @@
         $ati_titulo = get_sub_field('ati_titulo');
         ?>
 
-        <div class="descAtividade">
+        <div class="descAtividade" data-aos="flip-left">
             <h1><?php echo $ati_titulo; ?></h1>
-            <img src="<?php echo $ati_imagem['url']; ?>" alt="<?php echo $ati_imagem['alt'] ?>" />
+            <img  class="img-responsive imagemcomofunciona" style="min-height: 265px;" src="<?php echo $ati_imagem['url']; ?>" alt="<?php echo $ati_imagem['alt'] ?>" />
             <div style="text-align: justify;"><br>
                 <?php echo $ati_texto; ?>
             </div>
@@ -124,7 +125,7 @@
 <?php endif; ?>
 
         <section>
-            <div class="atividades">
+            <div class="atividades" data-aos="flip-up">
                 <ul>
 <?php if( have_rows('adicione_atividades') ): ?>
     <?php while( have_rows('adicione_atividades') ): the_row();
@@ -134,7 +135,7 @@
         $ati_titulo = get_sub_field('ati_titulo');
         ?>
                     <li>
-                        <img src="<?php echo $ati_imagemdesaque['url']; ?>" alt="<?php echo $ati_imagemdesaque['alt'] ?>" />
+                        <center><img class="img-responsive"  src="<?php echo $ati_imagemdesaque['url']; ?>" alt="<?php echo $ati_imagemdesaque['alt'] ?>" /></center>
                         <h3><?php echo $ati_titulo; ?></h3>
                     </li>
     <?php endwhile; ?>
@@ -152,7 +153,7 @@
         // vars
         $ati_texto2 = get_sub_field('ati_texto2');
         ?>
-            <div style="text-align: justify;">
+            <div style="text-align: justify;" data-aos="flip-up">
                 <?php echo $ati_texto2; ?>
             </div>
     <?php endwhile; ?>
@@ -166,7 +167,7 @@
 
     <section>
         <div>
-            <div class="col-md-3 beneficio"">
+            <div class="col-md-3 beneficio" data-aos="zoom-in">
 <?php if( have_rows('beneficio_da_imersao_total_em_ingles') ): ?>
     <?php while( have_rows('beneficio_da_imersao_total_em_ingles') ): the_row();
 
@@ -203,7 +204,7 @@
 
             </ul>
         </div>
-    <img src="<?php echo $beneficio_imagem['url']; ?>" alt="<?php echo $beneficio_imagem['alt'] ?>" />
+    <img class="img-responsive imagemcomofunciona" data-aos="zoom-in" style="min-height: 265px;" src="<?php echo $beneficio_imagem['url']; ?>" alt="<?php echo $beneficio_imagem['alt'] ?>" />
         </div><br><br>
     </section>
 
@@ -226,7 +227,7 @@
 
     <ul>
     <div>
-    <div class="col-md-3 networking"">
+    <div class="col-md-offset-7 col-md-3 networking" data-aos="zoom-in-down">
     <?php while( have_rows('banner_texto') ): the_row();
     // vars
     $banner_texto = get_sub_field('banner_texto');
@@ -239,7 +240,7 @@
 
         </div>
 
-        <img src="<?php echo $banner_imagem['url']; ?>" alt="<?php echo $banner_imagem['alt'] ?>" />
+        <img style="min-height: 265px;" data-aos="zoom-in-down" class="img-responsive imagemcomofunciona" src="<?php echo $banner_imagem['url']; ?>" alt="<?php echo $banner_imagem['alt'] ?>" />
 
         </div>
         </ul>
@@ -258,9 +259,9 @@
         ?>
 
 
-        <div class="imersao">
+        <div class="imersao" data-aos="flip-left" data-aos-duration="3000">
             <h1><?php echo $titulo; ?></h1>
-                    <img src="<?php echo $imagem['url']; ?>" alt="<?php echo $imagem['alt'] ?>" />
+                    <img style="min-height: 265px;" class="img-responsive imagemcomofunciona" src="<?php echo $imagem['url']; ?>" alt="<?php echo $imagem['alt'] ?>" />
 
             <div style="text-align: justify;"><br>
                <?php echo $texto; ?>
